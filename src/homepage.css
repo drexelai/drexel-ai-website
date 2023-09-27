@@ -1,0 +1,35 @@
+@keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .animate-bounce {
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  
+
+@font-face {
+    font-family: merriweather;
+    src: url(../public/fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(../public//fonts/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../public/fonts/Roboto-Light.ttf);
+}
+.roboto {
+    font-family: roboto;
+}
