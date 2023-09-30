@@ -1,19 +1,24 @@
 # Drexel AI Website
 
+To install all packages:
+```
+npm install
+```
+
 To run in development:
 
 ```
-pnpm run dev
+npm run dev
 ```
 
 To build for production:
 
 ```
-pnpm run build
+npm run build
 ```
 
 To run linter:
 
 ```
-pnpm run lint
+npm run lint
 ```
