@@ -2,6 +2,7 @@ import { Container } from '../Container';
 import { PillButton } from '../common';
 import clubConfig from '../../data/clubConfig.json';
 import { ProjectList } from '.';
+import { Link } from 'react-router-dom';
 
 const recentProjects = clubConfig.portfolio.projects.sort((a, b) => b.year - a.year).slice(0, 3);
 
@@ -18,7 +19,9 @@ export const RecentProjects = () => {
           </div>
           <ProjectList projects={recentProjects} />
           <div className="flex justify-center">
-            <PillButton>See All</PillButton>
+            <Link to="/projects">
+              <PillButton>See All</PillButton>
+            </Link>
           </div>
         </div>
       </Container>
