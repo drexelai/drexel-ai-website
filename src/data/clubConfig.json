@@ -1,0 +1,231 @@
+{
+  "main": {
+    "name": "Drexel AI",
+    "occupation": "AI Research Club",
+    "description": "We are a Philadelphia based AI Research Club. We promote machine learning techniques and help Dragons get familiar with Artificial Intelligence",
+    "oldDescription": "We promote machine learning techniques and help Dragons get familiar with Artificial Intelligence",
+    "image": "logo.jpg",
+    "bio": "Drexel AI seeks to help Dragons get familiar with Artificial Intelligence and Machine Learning fields. AI is evolving quickly. People who manage to stay familiar with the cutting-edge technology of AI has simply more advantage in today's world. Drexel AI aims to promote the power of this field, and help Dragons have such advantage.",
+    "contactmessage": "Contact us for any questions you might have",
+    "email": "az548@drexel.edu",
+    "phone": "",
+    "address": {
+      "street": "3210 Chestnut Street",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19104"
+    },
+    "aboutUS": {
+      "whoWeAre": "Drexel AI is driven by a mission to facilitate the exploration and understanding of Artificial Intelligence and Machine Learning among the Drexel University community. We strive to create an inclusive and supportive environment where students can engage in AI-related activities, expand their knowledge, and develop practical skills. By offering resources, workshops, and collaborative opportunities, we aim to equip Dragons with the tools they need to navigate the ever-evolving world of AI.",
+      "mission": "Drexel AI is driven by a mission to facilitate the exploration and understanding of Artificial Intelligence and Machine Learning among the Drexel University community. We strive to create an inclusive and supportive environment where students can engage in AI-related activities, expand their knowledge, and develop practical skills. By offering resources, workshops, and collaborative opportunities, we aim to equip Dragons with the tools they need to navigate the ever-evolving world of AI.",
+      "activities": [
+        {
+          "id": "education-and-workshops",
+          "title": "Education and Workshops",
+          "description": "We organize educational sessions and workshops led by experienced members and industry professionals to introduce and deepen understanding of AI and machine learning concepts. These hands-on learning opportunities provide a solid foundation for members to explore the field further."
+        },
+        {
+          "id": "research-and-projects",
+          "title": "Research and Projects",
+          "description": "Drexel AI encourages members to participate in research and project development related to AI. Through collaborative efforts, we tackle real-world challenges and explore innovative solutions using machine learning techniques. These projects offer valuable practical experience and an avenue for applying theoretical knowledge."
+        },
+        {
+          "id": "networking-and-community",
+          "title": "Networking and Community Building",
+          "description": "We foster a strong community of AI enthusiasts by organizing networking events, panel discussions, and guest speaker sessions. These gatherings provide opportunities for members to connect with like-minded individuals, learn from experts, and expand their professional network."
+        },
+        {
+          "id": "hackathons-and-competitions",
+          "title": "Hackathons and Competitions",
+          "description": "Drexel AI hosts hackathons and encourages participation in AI competitions. These events challenge members to apply their skills, creativity, and problem-solving abilities to develop AI-powered solutions within a limited timeframe. Such experiences boost individual growth and foster teamwork."
+        },
+        {
+          "id": "industry-partnerships",
+          "title": "Industry Partnerships",
+          "description": "We establish connections with AI companies, organizations, and researchers to facilitate internships, mentorship opportunities, and industry exposure for our members. Through these partnerships, we aim to bridge the gap between academia and industry, fostering career development in the field of AI."
+        }
+      ],
+      "last": "Whether you are a seasoned AI enthusiast or just beginning to explore the field, we welcome you to join Drexel AI. By becoming a member, you gain access to a supportive community, educational resources,networking opportunities, and the chance to contribute to cutting-edge research and projects. Don't miss out on the chance to gain an advantage in the world of AI."
+    },
+    "website": "https://dragonlink.drexel.edu/engage/organization/drexelai",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/company/drexel-ai",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/drexelai",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "slack",
+        "url": "http:/bit.ly/drexel-ai",
+        "className": "fab fa-slack"
+      }
+    ]
+  },
+  "team": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "University?",
+        "degree": "Masters in Beer tasting",
+        "graduated": "April 2007",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school": "School #1 Maybe College?",
+        "degree": "What did you study 101",
+        "graduated": "March 2003",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "Awesome Design Studio",
+        "title": "Senior UX God ",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Super Cool Studio",
+        "title": "Junior bug fixer",
+        "years": "March 2007 - February 2010",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Alex Zevelny",
+        "position": "President",
+        "image": "alex.png",
+        "level": "60%",
+        "major": "Computer Science",
+        "grade": "Pre Junior"
+      },
+      {
+        "name": "Rithvik Sukumaran",
+        "position": "Vice-President",
+        "image": "rithvik.png",
+        "level": "55%",
+        "major": "Data Science",
+        "grade": "Pre Junior"
+      },
+      {
+        "name": "Bobby Nguyen",
+        "position": "Treasurer",
+        "image": "bobby.jpg",
+        "level": "50%",
+        "major": "Computer Science",
+        "grade": "Sophomore"
+      },
+      {
+        "name": "Arijit Chakma",
+        "position": "Event Coordinator",
+        "image": "arijit.jpg",
+        "level": "90%",
+        "major": "Computer Science",
+        "grade": "Sophomore"
+      }
+    ],
+    "ambassadors": [
+      {
+        "name": "Dr. Matthew Burlick",
+        "position": "Professor at Drexel University & Drexel AI Advisor",
+        "image": "matt.jpg",
+        "level": "50%"
+      },
+      {
+        "name": "Dr. Anup Kumar Das",
+        "position": "Professor at Drexel University",
+        "image": "anup.jpg",
+        "level": "50%"
+      },
+      {
+        "name": "Dr. Edward Kim",
+        "position": "Professor at Drexel University & SPARSE LAB",
+        "image": "edward.jpg",
+        "level": "50%"
+      },
+      {
+        "name": "Dr. Dario Salvucci",
+        "position": "Professor at Drexel University",
+        "image": "dario.jpg",
+        "level": "50%"
+      }
+    ]
+  },
+  "portfolio": {
+    "research": [
+      {
+        "title": "ISSS ChatBot",
+        "category": "NLP & TensorFlow & DialogFlow",
+        "image": "isss-chatbot-thumb.jpg",
+        "url": "https://github.com/drexelai/isss-chatbot",
+        "year": 2022
+      },
+      {
+        "title": "Food Image Classifier for Efficient Refund Process",
+        "category": "TensorFlow, Neural Network",
+        "image": "picnic-thumb.jpg",
+        "url": "https://github.com/drexelai/Picnic-Hackathon",
+        "year": 2022
+      },
+      {
+        "title": "Stock Market Predictor",
+        "category": "Python",
+        "image": "stock.jpg",
+        "url": "https://github.com/drexelai/Stock-Market",
+        "year": 2021
+      },
+      {
+        "title": "Othello Game AI",
+        "category": "Othello",
+        "image": "othello.jpg",
+        "url": "https://github.com/drexelai/othello-ai",
+        "year": 2021
+      }
+    ],
+    "projects": [
+      {
+        "title": "ISSS ChatBot",
+        "category": "NLP & TensorFlow & DialogFlow",
+        "image": "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80",
+        "url": "https://github.com/drexelai/isss-chatbot",
+        "year": 2022
+      },
+      {
+        "title": "Food Image Classifier for Efficient Refund Process",
+        "category": "TensorFlow, Neural Network",
+        "image": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+        "url": "https://github.com/drexelai/Picnic-Hackathon",
+        "year": 2022
+      },
+      {
+        "title": "Stock Market Predictor",
+        "category": "Python",
+        "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+        "url": "https://github.com/drexelai/Stock-Market",
+        "year": 2021
+      },
+      {
+        "title": "Othello Game AI",
+        "category": "Othello",
+        "image": "othello.jpg",
+        "url": "https://github.com/drexelai/othello-ai",
+        "year": 2021
+      }
+    ]
+  },
+  "meetings": {
+    "meetings": [
+      {
+        "text": "Drexel AI meets biweekly (even weeks of term) on Thursdays at Ross Commons Room 302 between 6:00 PM and 7:00 PM",
+        "user": "Drexel AI e-board members"
+      }
+    ]
+  }
+}
