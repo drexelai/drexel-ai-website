@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Container } from '../Container';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -59,9 +60,13 @@ export const Header = () => {
               <div className="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
                 <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
                   <li>
-                    <a href="#features" className="block md:px-4 transition hover:text-primary" onClick={closeNavbar}>
-                      <span>Features</span>
-                    </a>
+                    <Link
+                      to={'/projects'}
+                      className="block md:px-4 transition hover:text-primary"
+                      onClick={closeNavbar}
+                    >
+                      <span>Projects</span>
+                    </Link>
                   </li>
                   <li>
                     <a href="#solution" className="block md:px-4 transition hover:text-primary" onClick={closeNavbar}>

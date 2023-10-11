@@ -32,8 +32,6 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           src={project.image}
           alt="art cover"
           loading="lazy"
-          width="1000"
-          height="667"
           className="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"
         />
       </div>
