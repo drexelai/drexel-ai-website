@@ -14,13 +14,10 @@ export const Header = () => {
         <Container>
           <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
             <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
-              <a href="#home" aria-label="logo" className="flex space-x-2 items-center">
-                <div aria-hidden="true" className="flex space-x-1">
-                  <div className="h-4 w-4 rounded-full bg-gray-900 dark:bg-white"></div>
-                  <div className="h-6 w-2 bg-primary"></div>
-                </div>
-                <span className="text-2xl font-bold text-gray-900 dark:text-white">Astrolus</span>
-              </a>
+              <Link to="/" aria-label="logo" className="flex space-x-2 items-center">
+                <img src="/images/logo.png" className="h-[32px] w-[32px] rounded-full" />
+                <span className="text-2xl font-bold text-gray-900 dark:text-white">Drexel AI</span>
+              </Link>
 
               <div className="relative flex items-center lg:hidden max-h-10">
                 <label
@@ -65,37 +62,27 @@ export const Header = () => {
                       className="block md:px-4 transition hover:text-primary"
                       onClick={closeNavbar}
                     >
-                      <span>Projects</span>
+                      <span>Research</span>
                     </Link>
                   </li>
                   <li>
-                    <a href="#solution" className="block md:px-4 transition hover:text-primary" onClick={closeNavbar}>
-                      <span>Solution</span>
+                    <a href="/software" className="block md:px-4 transition hover:text-primary" onClick={closeNavbar}>
+                      <span>Software</span>
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="#testimonials"
-                      className="block md:px-4 transition hover:text-primary"
-                      onClick={closeNavbar}
-                    >
-                      <span>Testimonials</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#blog" className="block md:px-4 transition hover:text-primary" onClick={closeNavbar}>
-                      <span>Blog</span>
+                    <a href="/events" className="block md:px-4 transition hover:text-primary" onClick={closeNavbar}>
+                      <span>Events</span>
                     </a>
                   </li>
                 </ul>
               </div>
-
               <div className="mt-12 lg:mt-0">
                 <a
-                  href="#"
+                  href="/get-involved"
                   className="relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                 >
-                  <span className="relative text-sm font-semibold text-white">Get Started</span>
+                  <span className="relative text-sm font-semibold text-black">Get Involved</span>
                 </a>
               </div>
             </div>
