@@ -1,6 +1,14 @@
 import { useState } from 'react';
 import { Container } from '../Container';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
+const navbarRoutes = [
+  { path: '/', title: 'Home' },
+  { path: 'projects', title: 'Projects' },
+  { path: 'research', title: 'Research' },
+  { path: 'team', title: 'Team' },
+  { path: 'about', title: 'About Us' },
+];
 
 export const Header = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -56,25 +64,17 @@ export const Header = () => {
             >
               <div className="text-gray-600 dark:text-gray-300 lg:pr-4 lg:w-auto w-full lg:pt-0">
                 <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
-                  <li>
-                    <Link
-                      to={'/projects'}
-                      className="block md:px-4 transition hover:text-primary"
+                  {navbarRoutes.map(({ path, title }) => (
+                    <NavLink
+                      to={path}
                       onClick={closeNavbar}
+                      className={({ isActive }) =>
+                        `${isActive && 'text-primary'} block md:px-4 transition hover:text-primary`
+                      }
                     >
-                      <span>Research</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <a href="/software" className="block md:px-4 transition hover:text-primary" onClick={closeNavbar}>
-                      <span>Software</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/events" className="block md:px-4 transition hover:text-primary" onClick={closeNavbar}>
-                      <span>Events</span>
-                    </a>
-                  </li>
+                      {title}
+                    </NavLink>
+                  ))}
                 </ul>
               </div>
               <div className="mt-12 lg:mt-0">

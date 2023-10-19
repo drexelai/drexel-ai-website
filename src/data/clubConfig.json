@@ -101,7 +101,7 @@
       {
         "name": "Alex Zevelny",
         "position": "President",
-        "image": "alex.png",
+        "image": "images/members/alex.png",
         "level": "60%",
         "major": "Computer Science",
         "grade": "Pre Junior"
@@ -109,7 +109,7 @@
       {
         "name": "Rithvik Sukumaran",
         "position": "Vice-President",
-        "image": "rithvik.png",
+        "image": "images/members/rithvik.png",
         "level": "55%",
         "major": "Data Science",
         "grade": "Pre Junior"
@@ -117,7 +117,7 @@
       {
         "name": "Bobby Nguyen",
         "position": "Treasurer",
-        "image": "bobby.jpg",
+        "image": "images/members/bobby.jpg",
         "level": "50%",
         "major": "Computer Science",
         "grade": "Sophomore"
@@ -125,7 +125,7 @@
       {
         "name": "Arijit Chakma",
         "position": "Event Coordinator",
-        "image": "arijit.jpg",
+        "image": "images/members/arijit.jpg",
         "level": "90%",
         "major": "Computer Science",
         "grade": "Sophomore"
@@ -135,25 +135,25 @@
       {
         "name": "Dr. Matthew Burlick",
         "position": "Professor at Drexel University & Drexel AI Advisor",
-        "image": "matt.jpg",
+        "image": "images/ambassadors/matt.jpg",
         "level": "50%"
       },
       {
         "name": "Dr. Anup Kumar Das",
         "position": "Professor at Drexel University",
-        "image": "anup.jpg",
+        "image": "images/ambassadors/anup.jpg",
         "level": "50%"
       },
       {
         "name": "Dr. Edward Kim",
         "position": "Professor at Drexel University & SPARSE LAB",
-        "image": "edward.jpg",
+        "image": "images/ambassadors/edward.jpg",
         "level": "50%"
       },
       {
         "name": "Dr. Dario Salvucci",
         "position": "Professor at Drexel University",
-        "image": "dario.jpg",
+        "image": "images/ambassadors/dario.jpg",
         "level": "50%"
       }
     ]
