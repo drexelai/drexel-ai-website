@@ -5,5 +5,5 @@ type PageContainerProps = {
 };
 
 export const PageContainer = ({ children }: PageContainerProps) => {
-  return <main className="space-y-40 pt-20 mb-40 w-full">{children}</main>;
+  return <main className="space-y-36 pt-36 mb-40 w-full">{children}</main>;
 };
