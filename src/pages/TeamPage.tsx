@@ -1,6 +1,5 @@
-import { Container } from '../components';
 import { PageContainer } from '../components/Layout';
-import { MembersList } from '../components/MembersList';
+import { MembersList, Container } from '../components';
 import clubConfig from '../data/clubConfig.json';
 
 export const TeamPage = () => {

@@ -13,7 +13,7 @@ export const Footer = () => {
             <div className="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start">
               <ul className="list-inside list-disc space-y-8">
                 {navbarRoutes.map(({ path, title }) => (
-                  <li>
+                  <li key={path}>
                     <NavLink to={path} className="transition hover:text-primary">
                       {title}
                     </NavLink>
