@@ -32,7 +32,7 @@ export const Activities = () => {
             >
               <div className="h-full flex flex-col justify-end relative space-y-8 py-12 p-8">
                 <img
-                  src={`/images/activities/${activity.id}.svg`}
+                  src={`images/activities/${activity.id}.svg`}
                   className="flex-initial w-12"
                   width="512"
                   height="512"
@@ -65,7 +65,7 @@ export const Activities = () => {
           <div className="group relative h-full bg-white dark:bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
             <div className="h-full flex flex-col justify-end relative space-y-8 py-12 p-8">
               <img
-                src="./images/activities/other.svg"
+                src="images/activities/other.svg"
                 className="flex-initial w-12"
                 width="512"
                 height="512"
