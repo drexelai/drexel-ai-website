@@ -14,7 +14,7 @@ export const ProjectsPage = () => {
             <div className="mt-8 space-y-2 text-center">
               <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Projects</h2>
               <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
-                Learn about projects that we did in the past
+                Learn about our past software projects
               </p>
             </div>
             <ProjectList projects={projects} />

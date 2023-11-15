@@ -16,7 +16,7 @@ export const ProjectList = ({ projects }: ProjectListProps) => {
   return (
     <Grid
       items={projects.map((project) => ({
-        title: `${project.title} ${project.year}`,
+        title: `${project.title} (${project.year})`,
         description: <ProjectDescription project={project} />,
         image: project.image,
       }))}

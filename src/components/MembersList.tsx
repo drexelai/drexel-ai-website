@@ -11,7 +11,7 @@ type MembersListProps = {
 
 export const MembersList = ({ members }: MembersListProps) => {
   return (
-    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
       {members.map((member, i) => (
         <MemberCard member={member} key={i} />
       ))}
@@ -30,7 +30,7 @@ const MemberCard = ({ member }: MemberCardProps) => {
         src={member.image}
         alt="art cover"
         loading="lazy"
-        className="h-64 w-64 rounded-full object-cover object-top transition duration-500 group-hover:scale-105"
+        className="h-48 w-48 rounded-full object-cover object-top transition duration-500 group-hover:scale-105"
       />
       <h3 className="flex-1 text-2xl font-semibold text-gray-800 dark:text-white">{member.name}</h3>
       <p className="flex-initial text-gray-600 dark:text-gray-300">{member.position}</p>

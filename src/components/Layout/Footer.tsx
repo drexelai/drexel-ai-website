@@ -34,8 +34,8 @@ export const Footer = () => {
             </div>
             <div className="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
               <span className="block text-gray-500 dark:text-gray-400">
-                Need help?{' '}
-                <Link to="/about" className="font-semibold text-gray-600 dark:text-white">
+                {' '}
+                <Link to="https://dragonlink.drexel.edu/organization/drexelai" className="font-semibold text-gray-600 dark:text-white">
                   {' '}
                   Contact Us
                 </Link>
@@ -74,7 +74,7 @@ const SlackIcon = () => (
 
 const SocialIcon: Record<string, ReactNode> = {
   github: <GithubIcon />,
-  istagram: <InstagramIcon />,
+  instagram: <InstagramIcon />,
   linkedin: <LinkedInIcon />,
   slack: <SlackIcon />,
 };
