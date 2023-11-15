@@ -1,9 +1,9 @@
 import { Container } from '../components';
 import { PageContainer } from '../components/Layout';
-import { ResearchList } from '../components/Research/ResearchList';
-import clubConfig from '../data/clubConfig.json';
+// import { ResearchList } from '../components/Research/ResearchList';
+// import clubConfig from '../data/clubConfig.json';
 
-const researches = clubConfig.portfolio.research;
+// const researches = clubConfig.portfolio.research;
 
 export const ResearchPage = () => {
   return (
