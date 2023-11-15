@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { AboutUsPage, HomePage, ProjectsPage, Research, TeamPage } from '../pages';
+import { AboutUsPage, HomePage, ProjectsPage, ResearchPage, TeamPage } from '../pages';
 import { Layout } from '../components/Layout';
 import { useLayoutEffect } from 'react';
 
@@ -20,7 +20,7 @@ export const RootRouter = () => {
       <Route id="layout" path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/research" element={<Research/>} />
+        <Route path="/research" element={<ResearchPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/about" element={<AboutUsPage />} />
       </Route>

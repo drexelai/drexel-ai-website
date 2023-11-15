@@ -66,6 +66,7 @@ export const Header = () => {
                 <ul className="tracking-wide font-medium lg:text-sm flex-col flex lg:flex-row gap-6 lg:gap-0">
                   {navbarRoutes.map(({ path, title }) => (
                     <NavLink
+                      key={path}
                       to={path}
                       onClick={closeNavbar}
                       className={({ isActive }) =>

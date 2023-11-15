@@ -163,21 +163,21 @@
       {
         "title": "ISSS ChatBot",
         "category": "NLP & TensorFlow & DialogFlow",
-        "image": "isss-chatbot-thumb.jpg",
+        "image": "images/projects/isss-chat-bot.png",
         "url": "https://github.com/drexelai/isss-chatbot",
         "year": 2022
       },
       {
         "title": "Food Image Classifier for Efficient Refund Process",
         "category": "TensorFlow, Neural Network",
-        "image": "picnic-thumb.jpg",
+        "image": "images/projects/food-image-classifier.png",
         "url": "https://github.com/drexelai/Picnic-Hackathon",
         "year": 2022
       },
       {
         "title": "Stock Market Predictor",
         "category": "Python",
-        "image": "stock.jpg",
+        "image": "images/projects/stock-market-predictor.png",
         "url": "https://github.com/drexelai/Stock-Market",
         "year": 2021
       },
@@ -193,21 +193,21 @@
       {
         "title": "ISSS ChatBot",
         "category": "NLP & TensorFlow & DialogFlow",
-        "image": "https://images.unsplash.com/photo-1611606063065-ee7946f0787a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80",
+        "image": "images/projects/isss-chat-bot.png",
         "url": "https://github.com/drexelai/isss-chatbot",
         "year": 2022
       },
       {
         "title": "Food Image Classifier for Efficient Refund Process",
         "category": "TensorFlow, Neural Network",
-        "image": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+        "image": "images/projects/food-image-classifier.png",
         "url": "https://github.com/drexelai/Picnic-Hackathon",
         "year": 2022
       },
       {
         "title": "Stock Market Predictor",
         "category": "Python",
-        "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+        "image": "images/projects/stock-market-predictor.png",
         "url": "https://github.com/drexelai/Stock-Market",
         "year": 2021
       },
