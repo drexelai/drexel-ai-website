@@ -1,6 +1,7 @@
 # Drexel AI Website
 
 To install all packages:
+
 ```
 npm install
 ```
@@ -15,6 +16,12 @@ To build for production:
 
 ```
 npm run build
+```
+
+To deploy to Github Pages
+
+```
+npm run deploy
 ```
 
 To run linter:

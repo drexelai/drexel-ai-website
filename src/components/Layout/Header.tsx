@@ -23,7 +23,7 @@ export const Header = () => {
           <div className="flex flex-wrap items-center justify-between py-2 gap-6 md:py-4 md:gap-0 relative">
             <div className="relative z-20 w-full flex justify-between lg:w-max md:px-0">
               <Link to="/" aria-label="logo" className="flex space-x-2 items-center">
-                <img src="/images/logo.png" className="h-[32px] w-[32px] rounded-full" />
+                <img src="images/logo.png" className="h-[32px] w-[32px] rounded-full" />
                 <span className="text-2xl font-bold text-gray-900 dark:text-white">Drexel AI</span>
               </Link>
 
