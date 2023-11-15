@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Container } from '../Container';
 import { Link, NavLink } from 'react-router-dom';
 
-const navbarRoutes = [
+export const navbarRoutes = [
   { path: '/', title: 'Home' },
   { path: 'projects', title: 'Projects' },
   { path: 'research', title: 'Research' },
