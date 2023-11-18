@@ -21,7 +21,7 @@ export const HeroSection = () => {
             <p className="mt-8 text-gray-700 dark:text-gray-300">{clubConfig.main.description}</p>
             <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
               <PillButton primaryColor><a href="https://dragonlink.drexel.edu/organization/drexelai">Join Us</a></PillButton>
-              <PillButton><a href="/about">Learn More</a></PillButton>
+              {/* <PillButton><a href="/about">Learn More</a></PillButton> */}
             </div>
           </div>
         </div>
