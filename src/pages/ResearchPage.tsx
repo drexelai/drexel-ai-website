@@ -30,12 +30,6 @@ export const ResearchPage = () => {
               </p></li>
               <br/>
               <li>
-                <h3 className="font-bold"><a href="https://www.sciencedirect.com/science/article/pii/S2667318522000137">HematoNet: Expert level classification of bone marrow cytology morphology in hematological malignancy with deep learning</a></h3>
-                <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
-                Tripathi, S., Augustin, A. I., Sukumaran, R., Dheer, S., & Kim, E. (2022). HematoNet: expert level classification of bone marrow cytology morphology in hematological malignancy with deep learning. Artificial Intelligence in the Life Sciences, 2, 100043.
-              </p></li>
-              <br/>
-              <li>
                 <h3 className="font-bold"><a href="https://ieeexplore.ieee.org/abstract/document/9533483">Towards Searching Efficient and Accurate Neural Network Architectures in Binary Classification Problems</a></h3>
                 <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
                 Alparslan, Y., Moyer, E. J., Isozaki, I. M., Schwartz, D., Dunlop, A., Dave, S., & Kim, E. (2021, July). Towards searching efficient and accurate neural network architectures in binary classification problems. In 2021 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.
