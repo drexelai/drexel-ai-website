@@ -32,7 +32,7 @@ const ProjectDescription = ({ project }: ProjectDescriptionProps) => {
   return (
     <>
       <p>{project.category}</p>
-      <a className="flex-initial inline-block" href={project.url}>
+      <a className="flex-initial inline-block" href={project.url} target='_blank'>
         <span className="text-info dark:text-blue-300">Github</span>
       </a>
     </>
