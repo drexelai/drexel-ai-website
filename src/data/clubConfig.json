@@ -115,9 +115,9 @@
         "grade": "Pre Junior"
       },
       {
-        "name": "Bobby Nguyen",
+        "name": "Ishan Patel",
         "position": "Treasurer",
-        "image": "images/members/bobby.jpg",
+        "image": "images/members/ishan.jpg",
         "level": "50%",
         "major": "Computer Science",
         "grade": "Sophomore"
@@ -134,6 +134,18 @@
         "name": "Dr. Edward Kim",
         "position": "Advisor",
         "image": "images/ambassadors/edward.png",
+        "level": "50%"
+      },
+      {
+        "name": "Steven Nesbit",
+        "position": "Technical Advisor",
+        "image": "images/members/nesbit.png",
+        "level": "50%"
+      },
+      {
+        "name": "Ben Stear",
+        "position": "Data Engineer",
+        "image": "images/members/ben.jpg",
         "level": "50%"
       }
     ],
