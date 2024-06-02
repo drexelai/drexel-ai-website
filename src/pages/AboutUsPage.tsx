@@ -7,14 +7,13 @@ export const AboutUsPage = () => {
   return (
     <PageContainer>
       <Section>
-          <h2 className="text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">Mission</h2>
-          <br/>
-          <p className="text-gray-600 dark:text-gray-300 text-md lg:text-lg">{clubConfig.main.aboutUS.mission}</p>
-
+        <h2 className="text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">Mission</h2>
+        <br />
+        <p className="text-gray-600 dark:text-gray-300 text-md lg:text-lg">{clubConfig.main.aboutUS.mission}</p>
       </Section>
       <Section>
         <h2 className="text-2xl font-bold text-gray-700 dark:text-white md:text-4xl pb-8">What We Do</h2>
-        <br/>
+        <br />
         <ul className="space-y-8">
           {clubConfig.main.aboutUS.activities.map((activity) => (
             <li key={activity.id} className="text-gray-600 dark:text-gray-300 text-md lg:text-lg">
@@ -26,9 +25,11 @@ export const AboutUsPage = () => {
       </Section>
       <Section>
         <h2 className="text-2xl font-bold text-gray-700 dark:text-white md:text-4xl">Contact Us</h2>
-        <br/>
+        <br />
         {/* <p className="text-gray-600 dark:text-gray-300">Phone: {clubConfig.main.phone}</p> */}
-        <p className="text-gray-600 dark:text-gray-300"><a href="https://dragonlink.drexel.edu/organization/drexelai">az548@drexel.edu</a></p>
+        <p className="text-gray-600 dark:text-gray-300">
+          <a href="drexelartificialintelligence@gmail.com">drexelartificialintelligence@gmail.com</a>
+        </p>
       </Section>
     </PageContainer>
   );

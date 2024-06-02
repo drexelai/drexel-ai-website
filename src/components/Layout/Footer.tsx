@@ -35,7 +35,10 @@ export const Footer = () => {
             <div className="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
               <span className="block text-gray-500 dark:text-gray-400">
                 {' '}
-                <Link to="https://dragonlink.drexel.edu/organization/drexelai" className="font-semibold text-gray-600 dark:text-white">
+                <Link
+                  to="mailto:drexelartificialintelligence@gmail.com"
+                  className="font-semibold text-gray-600 dark:text-white"
+                >
                   {' '}
                   Contact Us
                 </Link>
