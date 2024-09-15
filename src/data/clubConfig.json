@@ -143,6 +143,12 @@
         "level": "50%"
       },
       {
+        "name": "Raja Giddi",
+        "position": "Lead Researcher",
+        "image": "images/members/raja.jpg",
+        "level": "50%"
+      },
+      {
         "name": "Ben Stear",
         "position": "Data Engineer",
         "image": "images/members/ben.jpg",
@@ -212,18 +218,25 @@
         "year": 2021
       },
       {
-        "title": "This Website",
+        "title": "Drexel AI Organization Website",
         "category": "React.js, Tailwind, Typescript",
         "image": "images/projects/Drexel Artificial Intelligence Logo Face.png",
         "url": "https://github.com/drexelai/drexel-ai-website",
         "year": 2023
+      },
+      {
+        "title": "DragonGPT",
+        "category": "LLMs, OpenAI, Pinecone, React.js",
+        "image": "images/projects/dragongpt.png",
+        "url": "https://github.com/drexelai/dragon-gpt",
+        "year": 2024
       }
     ]
   },
   "meetings": {
     "meetings": [
       {
-        "text": "Drexel AI meets biweekly (even weeks of term) on Thursdays at Ross Commons Room 302 between 6:00 PM and 7:00 PM",
+        "text": "Drexel AI meets weekly (even weeks of term) on Thursdays at Ross Commons Room 302 between 6:00 PM and 7:00 PM",
         "user": "Drexel AI e-board members"
       }
     ]
