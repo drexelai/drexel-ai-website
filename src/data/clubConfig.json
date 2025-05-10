@@ -99,33 +99,33 @@
     ],
     "skills": [
       {
-        "name": "Alex Zavalny",
+        "name": "Justin Getty",
         "position": "President",
-        "image": "images/members/alex.jpg",
+        "image": "images/members/justin.jpg",
         "level": "60%",
         "major": "Computer Science",
-        "grade": "Pre Junior"
+        "grade": "Junior"
       },
       {
-        "name": "Rithvik Sukumaran",
+        "name": "Ishan Patel",
         "position": "Vice-President",
-        "image": "images/members/rithvik.jpg",
+        "image": "images/members/ishan.jpg",
         "level": "55%",
         "major": "Data Science",
         "grade": "Pre Junior"
       },
       {
-        "name": "Ishan Patel",
+        "name": "Will Feid",
         "position": "Treasurer",
-        "image": "images/members/ishan.jpg",
+        "image": "images/members/will.png",
         "level": "50%",
         "major": "Computer Science",
         "grade": "Sophomore"
       },
       {
-        "name": "Justin Getty",
+        "name": "Kristine Yoo",
         "position": "Event Coordinator",
-        "image": "images/members/justin.jpg",
+        "image": "images/members/kristine.png",
         "level": "90%",
         "major": "Computer Science",
         "grade": "Sophomore"
@@ -137,21 +137,21 @@
         "level": "50%"
       },
       {
-        "name": "Steven Nesbit",
-        "position": "Technical Advisor",
-        "image": "images/members/nesbit.png",
-        "level": "50%"
-      },
-      {
         "name": "Raja Giddi",
-        "position": "Lead Researcher",
+        "position": "Technical Advisor",
         "image": "images/members/raja.jpg",
         "level": "50%"
       },
       {
-        "name": "Ben Stear",
-        "position": "Data Engineer",
-        "image": "images/members/ben.jpg",
+        "name": "Khushboo Patel",
+        "position": "Lead Researcher",
+        "image": "images/members/khushboo.jpeg",
+        "level": "50%"
+      },
+      {
+        "name": "Evan Radcliffe",
+        "position": "Alumni Advisor",
+        "image": "images/members/evan.png",
         "level": "50%"
       }
     ],
