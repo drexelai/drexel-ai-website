@@ -104,31 +104,31 @@
         "image": "images/members/justin.jpg",
         "level": "60%",
         "major": "Computer Science",
-        "grade": "Junior"
-      },
-      {
-        "name": "Ishan Patel",
-        "position": "Vice-President",
-        "image": "images/members/ishan.jpg",
-        "level": "55%",
-        "major": "Data Science",
-        "grade": "Pre Junior"
-      },
-      {
-        "name": "Will Feid",
-        "position": "Treasurer",
-        "image": "images/members/will.png",
-        "level": "50%",
-        "major": "Computer Science",
-        "grade": "Sophomore"
+        "grade": "Senior"
       },
       {
         "name": "Kristine Yoo",
+        "position": "Vice-President",
+        "image": "images/members/kristine.jpg",
+        "level": "55%",
+        "major": "Computer Science",
+        "grade": "Pre Junior"
+      },
+      {
+        "name": "Tony Drayton",
         "position": "Event Coordinator",
-        "image": "images/members/kristine.png",
+        "image": "images/members/tony.jpg",
+        "level": "50%",
+        "major": "Computer Science",
+        "grade": "Senior"
+      },
+      {
+        "name": "Pavithra Govindhan",
+        "position": "Event Coordinator",
+        "image": "images/members/pavithra.jpg",
         "level": "90%",
         "major": "Computer Science",
-        "grade": "Sophomore"
+        "grade": "Pre-Junior"
       },
       {
         "name": "Dr. Edward Kim",
@@ -138,20 +138,20 @@
       },
       {
         "name": "Raja Giddi",
-        "position": "Technical Advisor",
+        "position": "Alumni Technical Advisor",
         "image": "images/members/raja.jpg",
         "level": "50%"
       },
       {
-        "name": "Khushboo Patel",
-        "position": "Lead Researcher",
-        "image": "images/members/khushboo.jpg",
+        "name": "Nick Foley",
+        "position": "Alumni Research Advisor",
+        "image": "images/members/nick.jpg",
         "level": "50%"
       },
       {
-        "name": "Evan Radcliffe",
-        "position": "Alumni Advisor",
-        "image": "images/members/evan.png",
+        "name": "Katie Le",
+        "position": "Treasurer",
+        "image": "images/members/katie.jpg",
         "level": "50%"
       }
     ],
